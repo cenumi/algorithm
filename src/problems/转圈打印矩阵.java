@@ -8,6 +8,16 @@ public class 转圈打印矩阵 {
             {13,14,15,16},
             {17,18,19,20}
     };
+    static int[][] matrix2 = {
+            {1,2},{3,4}
+    };
+    static int [][] matrix3 = {
+            {1,2,3,4,5},
+            {6,7,8,9,10},
+            {11,12,13,14,15},
+            {16,17,18,19,20},
+            {21,22,23,24,25}
+    };
     /**
      * 给定一个整型矩阵 matrix ，请按照转圈的方式打印它。
      * 打印结果为：
@@ -15,7 +25,7 @@ public class 转圈打印矩阵 {
      * 额外空间复杂度为O(1)。
      */
     public static void main(String[] args) {
-        print(matrix);
+        print(matrix3);
     }
 
     public static void print(int[][] matrix){
